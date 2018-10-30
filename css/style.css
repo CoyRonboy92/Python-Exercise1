@@ -1,0 +1,73 @@
+*{margin: 0 auto;padding: 0;box-sizing: border-box; -moz-box-sizing; border-box; -webkit-box-sizing: border-box;}
+html{background: #005A94;}
+ul,li,ol{list-style:none;}
+h1{text-align:center;color:#000;font-family: 'Sail', cursive;font-size:300%;padding:15px;letter-spacing: 8px;text-shadow:1px 3px 3px #999;-webkit-text-shadow: 1px 3px 3px #222;}
+h2, h3{text-align:center;color:#d2d2d2;font-family: 'Racing Sans One', cursive;font-size:125%;text-shadow:1px 1px 2px #000;}
+h3{background-color:#89003A;}
+
+
+/*Body*/
+
+body{font-family: 'Carrois Gothic SC', sans-serif;background:background: #7A2C17;max-width: 1026px;min-width:320px;margin: 10px auto;box-shadow: 3px 3px 15px; -moz-box-shadow: 3px 3px 15px; -webkit-box-shadow: 3px 3px 15px;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+
+#container{display:block;width:100%;background: url(images/Jkiwi.jpg);padding:10px;float:left;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;}
+
+/*Header*/
+
+header{display:block;background:#C3B979;}
+header img{display:inline-block;width:auto;height:auto;vertical-align:middle;border: 5px solid #003354;}
+
+
+/*Navigation*/
+nav{display:block;vertical-align:middle;width:100%;height:55px;background: url(../images/images_kimberly_wants/footer-Recovered.png);}
+
+nav li{
+
+padding:0 10px 0 10px;
+
+}
+
+nav li a{display:inline-block;
+-webkit-box-shadow: 0 8px 10px rgba(0,0,0, 0.7);
+-moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
+-webkit-transform: rotate(-2deg);
+transform:rotate(-2deg);
+-moz-transform:rotate(-2deg);text-align:center;width:auto;height:auto;color:#F7CCFF;text-decoration: none;float: left;padding:8px;}
+
+nav li a{
+font-weight:bolder;
+color:#222;
+background:#FFD477;
+transition: background .45s ease-in-out;
+-moz-transition: background .45s ease-in-out;
+-webkit-transition: background .45s ease-in-out;
+}
+nav  li a:hover{background:#89003A;color:#fafafa;font-weight:bolder;}
+
+/*Content*/
+
+#content{background:#FFCBB3;float:left;width:100%;display:block; border: 5px solid #003354;}
+#content p{padding:10px;}
+.img1{padding:10px;positon:absolute;top:0;float:left;}
+
+.a1 p{color:#000;padding: 10px 20px; margin: 15px;border: box;float:left;}
+.a2 h2,h3{position:relative;}
+.a2 p{color:#000;padding: 10px 20px; margin: 15px; text-align: center;}
+.a2 {text-align: center;}
+.a2 #s1 p{text-align: center;}
+
+section  {
+    display:block;
+    background-color:#06C;
+    color:white;
+    text-align:center;
+    margin:20px;
+    padding:20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/*Footer*/
+
+footer{display:block;text-align: center; min-height: 25px;width:100%;background:#C67761;float:left;}
